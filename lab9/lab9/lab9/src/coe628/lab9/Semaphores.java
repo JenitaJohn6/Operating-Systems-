@@ -7,7 +7,7 @@ package coe628.lab9;
 
 /**
  *
- * @author jjmar
+ * @author jenitajohn
  */
 public class Semaphores {
     
