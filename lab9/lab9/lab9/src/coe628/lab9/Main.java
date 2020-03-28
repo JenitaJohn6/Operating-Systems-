@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author jjmar
+ * @author jenita john
  */
 public class Main {
     
