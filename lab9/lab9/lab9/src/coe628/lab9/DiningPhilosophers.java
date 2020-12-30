@@ -34,16 +34,16 @@ public class DiningPhilosophers extends Thread{
             
           // think
            think();
-            leftfork.get_fork(n+1); 
+            leftfork.get_fork(); 
             System.out.println(" Fork "+ leftfork.getId() + " taken by Philosopher " + (n+1) );    
-            rightfork.get_fork(n+1);
+            rightfork.get_fork();
             System.out.println(" Fork "+ rightfork.getId() + " taken by Philosopher " + (n+1) );    
             eat();
             System.out.println(" Philosopher " + (n+1) + " completed his dinner" );    
               System.out.println(" Philosopher " + (n+1) + " released fork " + leftfork.getId());  
-            leftfork.put_fork(n+1);
+            leftfork.put_fork();
              System.out.println(" Philosopher " + (n+1) + " released fork " +  rightfork.getId());  
-            rightfork.put_fork(n+1);
+            rightfork.put_fork();
             completed++;
             System.out.println("Till now num of philosophers completed dinner are " + completed ); 
             if(completed == 5){

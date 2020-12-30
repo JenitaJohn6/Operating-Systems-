@@ -26,7 +26,7 @@ public class fork {
      
     // Everytime a philosopher grabs a fork the semaphore ready gets decremented, indicating that a resource is used 
     
-        void get_fork(int i){
+        void get_fork(){
         try {
             p.down(); 
         } catch (InterruptedException ex) {
@@ -35,7 +35,7 @@ public class fork {
          }
     // Every time a philosopher puts his fork back, the sempahore is incremented, indicating that a resource is now available. 
         
-        void put_fork(int i){
+        void put_fork(){
          try {
              p.up();  
          } catch (InterruptedException ex) {
