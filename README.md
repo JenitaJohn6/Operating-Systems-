@@ -4,6 +4,8 @@
 <img align="left" alt="BUILD" src="https://img.shields.io/badge/Build-Success-brightgreen"/>
 <br>
 
+<img align="left" alt="COURSE" src="https://spin.atomicobject.com/wp-content/uploads/dining-philosophers-problem-small.jpg"/>
+
 ## Problem Description
 There are N philosphers sitting around a circular table eating spaghetti and discussing philosphy. The problem is that each philosopher needs 2 forks to eat, and there are only N forks, one between each 2 philosophers. Design an algorithm that the philosophers can follow that insures that none starves as long as each philosopher eventually stops eating, and such that the maximum number of philosophers can eat at once.
 
