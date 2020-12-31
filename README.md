@@ -3,7 +3,7 @@
 <img align="left" alt="COURSE" src="https://img.shields.io/badge/COURSE-COE628-blue"/>
 <img align="left" alt="BUILD" src="https://img.shields.io/badge/Build-Success-brightgreen"/>
 <br>
-
+<br>
 <img align="left" alt="COURSE" src="https://spin.atomicobject.com/wp-content/uploads/dining-philosophers-problem-small.jpg"/>
 
 ## Problem Description
