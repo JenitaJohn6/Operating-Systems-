@@ -1,6 +1,5 @@
 # Dining Philosophers
 
-<img align="left" alt="COURSE" src="https://img.shields.io/badge/COURSE-COE628-blue"/>
 <img align="left" alt="BUILD" src="https://img.shields.io/badge/Build-Success-brightgreen"/>
 <br>
 <br>
